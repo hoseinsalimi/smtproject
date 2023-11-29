@@ -101,6 +101,73 @@ font-size: large;
 }
 /* end heading */
 
+
+
+
+/* responsive-menu start */
+.responsive-menu{
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(0, 0,0, 0.8);
+    z-index: 100;
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.responsive-menu ul{}
+.responsive-menu ul li{
+    padding-top: 15px;
+}
+.responsive-menu ul li a{
+    color: orange;
+    font-size: 1.8rem;
+    padding-right: 100px;
+    font-weight: bold;
+}
+.responsive-menu-icon{
+padding-right: 25px;
+display: none;
+}
+.responsive-menu-icon i{
+    font-size: 2.2rem;
+    color: orange;
+}
+.vorod{
+display: none;
+}
+.search{
+    display: block;
+}
+.bag{
+    display: block
+}
+.sima-logo{
+    display: block;
+}
+
+
+
+
+
+
+
+/* responsive-menu end */
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* start content*/
 .sima{
 border-radius: 20px;
@@ -236,24 +303,20 @@ margin-right: 70px;
  justify-content: space-between;
 }
 .card1{
-margin-left: 15px;
-
-box-shadow: 0 0 4px white;
-width: 370px;
-border-radius: 35px;
+    margin-left: 15px;
+    box-shadow: 0 0 4px white;
+    width: 370px;
+    border-radius: 35px 35px 0 0;
 }
 .card2{
-margin-left: 15px;
-
 box-shadow: 0 0 4px white;
 width: 370px;
-border-radius: 35px;
+border-radius: 35px 35px 0 0;
 }
 .card3{
-
 box-shadow: 0 0 4px white;
 width: 370px;
-border-radius: 35px;
+border-radius: 35px 35px 0 0;
 }
 .amozesh{
 margin-top: 13px;
@@ -307,6 +370,8 @@ font-size: 20px;
 }
 .user{
 margin-right: 5px;
+width: 25px;
+height: 20px;
 }
 .star{
 margin-right: 10px;
@@ -330,31 +395,57 @@ font-size: 20px;
 text-decoration: line-through;
 }
 /* slyder2 start */
-.simaj{
-text-align: center;
-display: flex;
-justify-content: space-between;
 
-
-}
 .sima1{
-margin-left: 450px;
-box-shadow: 0 0 4px white;
-width: 370px;
 border-radius: 15px;
+border: 1px solid white;
 }
 .sima2{
-    margin-left: 30px;
-    box-shadow: 0 0 4px white;
-width: 370px;
+
 border-radius: 15px;
+border: 1px solid white;
 }
 .sima3{
-    margin-left: 30px;
-    box-shadow: 0 0 4px white;
-width: 370px;
 border-radius: 15px;
+border: 1px solid white;
+
 }
 .online{
-    
+color: rgb(82, 3, 82);
+font-size: 35px; 
+text-align: right;
+font-style: normal;
+font-weight: 500;
+margin-right: 900px; 
+margin-top: 150px;
 }
+.por{
+text-align: right;
+margin-right: 900px;
+font-size: 20px;
+margin-top: 10px;
+
+}
+.cardd-img{
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 90px;
+   }
+   .carrd1{
+    box-shadow: 0 0 4px white;
+    width: 370px;
+    border-radius: 35px;
+
+   }
+   .cardd2{
+    box-shadow: 0 0 4px white;
+    width: 370px;
+    border-radius: 35px;
+    margin-right: 40px;
+   }
+   .cardd3{
+    box-shadow: 0 0 2px white;
+    width: 370px;
+    border-radius: 35px;
+margin-left: 390px;
+   }

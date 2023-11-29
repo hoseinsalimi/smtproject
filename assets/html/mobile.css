@@ -1,0 +1,26 @@
+.responsive-menu{
+    display: block;
+}
+.main-nav .nav-right ul{
+    display: none;
+}
+.responsive-menu-icon{
+    display: none;
+    display: block;
+    }
+    .vorod{
+        display: block;
+        text-align: center;
+        padding-left: 40px;
+        }
+        .search{
+            display: none;
+        }
+        .bag{
+            display: none;
+        }
+        .sima-logo{
+
+            padding-right: 550px;
+        }
+        
